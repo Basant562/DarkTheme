@@ -1,0 +1,21 @@
+.footer-section {
+    background-color: #0d345b;
+    min-height: 60px;
+    width: 100%;
+  }
+  .footer-main {
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    .footer-left {
+      flex: 1;
+      margin-right: 15px;
+  
+      span {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+  

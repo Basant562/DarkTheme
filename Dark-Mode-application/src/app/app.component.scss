@@ -1,0 +1,16 @@
+.content-section {
+  background-color: #fff;
+  width: 100%;
+}
+
+.body-content {
+  min-height: 82vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span{
+      font-size: 30px;
+      font-weight: bold;
+      color: black;
+  }
+}

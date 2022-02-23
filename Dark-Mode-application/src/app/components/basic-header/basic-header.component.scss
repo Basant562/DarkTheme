@@ -1,0 +1,20 @@
+.header-section {
+  background-color: #80e315;
+  min-height: 60px;
+  width: 100%;
+}
+.header-main {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  .header-left {
+    flex: 1;
+    margin-right: 15px;
+
+    span {
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+}
