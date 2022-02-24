@@ -8,6 +8,10 @@ import { Component } from '@angular/core';
 export class BasicHeaderComponent {
 
   constructor() { }
+  
+   darkMode(){
+     document.body.classList.add("dark-mode");
+   }
 
   ngOnInit(): void {
   }
