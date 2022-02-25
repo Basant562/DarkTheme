@@ -10,7 +10,13 @@ export class BasicHeaderComponent {
   constructor() { }
   
    darkMode(){
-     document.body.classList.add("dark-mode");
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   }
+
+   lightMode(){
+    var element = document.body;
+    element.classList.toggle("light-mode");
    }
 
   ngOnInit(): void {
