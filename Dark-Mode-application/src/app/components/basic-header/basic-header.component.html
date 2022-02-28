@@ -6,11 +6,9 @@
     </div>
 
     <div class="header-button-grp">
-        <div class="btn-group">
-            <button type="button" class="btn-primary">Default</button>
-            <button type="button" class="btn-primary" (click)="darkMode()">Dark</button>
-            <button type="button" class="btn-primary" (click)="lightMode()">Light</button>
-          </div>
+            <button type="button" class="active" (click)="toggleDefaultTheme()">Default</button>
+            <button type="button" class="active" (click)="toggleDarkTheme()">Dark</button>
+            <button type="button" class="active"  (click)="toggleLightTheme()">Light</button>
     </div>
 </div>
     </div>

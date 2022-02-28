@@ -1,5 +1,5 @@
 .header-section {
-  background-color: #80e315;
+  background-color: var(--green-color);
   min-height: 60px;
   width: 100%;
 }
@@ -32,7 +32,6 @@
   cursor: pointer;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
+.header-button-grp button {
+  margin-left: 10px;
 }

@@ -8,16 +8,20 @@ import { Component } from '@angular/core';
 export class BasicHeaderComponent {
 
   constructor() { }
-  
-   darkMode(){
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-   }
+  toggleDefaultTheme() {
+    document.body.classList.remove('dark-theme');
+    document.body.classList.add('light-theme');
+  }
 
-   lightMode(){
-    var element = document.body;
-    element.classList.toggle("light-mode");
-   }
+  toggleDarkTheme() {
+    document.body.classList.remove('light-theme');
+    document.body.classList.add('dark-theme');
+  }
+  toggleLightTheme() {
+    document.body.classList.remove('dark-theme');
+    document.body.classList.add('light-theme');
+    document.body.classList.add('active');
+  }
 
   ngOnInit(): void {
   }

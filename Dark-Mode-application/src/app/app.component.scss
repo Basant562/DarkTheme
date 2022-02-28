@@ -1,5 +1,5 @@
 .content-section {
-  background-color: #fff;
+  background-color: var(--bkg-color);
   width: 100%;
 }
 
@@ -8,10 +8,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  span{
-      font-size: 30px;
-      font-weight: bold;
-      color: black;
+  span {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
   }
 }
 .card {
@@ -20,11 +20,7 @@
   margin: auto;
   text-align: center;
   font-family: arial;
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
+  padding: 15px 40px;
 }
 
 a {
